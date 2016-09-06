@@ -143,39 +143,45 @@
 				</tbody>
 			</table>
 		</article>
+
 		<aside>
-			<h2>这里以后是个侧栏</h2>
-			<h2>侧栏注册窗口标题</h2>
-			<form action="reg.do" method="post">
-				<label>输入邮箱：<input type="text" name="email"/></label>
-				<br /><span>邮箱地址请按格式输入</span><br />
-				<label>输入密码：<input type="password" name="pwd"/></label>
-				<label>重复输入密码：<input type="password"/></label>
-				<br /><span>密码请为6-16位英文数字</span><br />
-				<span>性别：</span>
-				<label><input type="radio" name="gender" value="m" />男</label>
-				<label><input type="radio" name="gender" value="f" checked />女</label>
-				<br />
-				<label>城市：
-					<select name="city">
-						<option value="beijing" selected>北京</option>
-						<option value="shanghai">上海</option>
-						<option value="guangzhou">广州</option>
+			<div class="slide-header"><b>这里以后是一个侧栏，这是侧栏的标题</b></div>
+			<form>
+				<div><label>请输入邮箱地址 </label><input type="text" value="这是一个文本输入框" /></div>
+				<div><label></label><tips>邮箱地址请按要求格式输入</tips></div>
+				<div><label>请输入密码 </label><input type="password" value="这是一个文本输入框" /></div>
+				<div><label>请重复输入密码 </label><input type="password" value="这是一个文本输入框" /></div>
+				<div><label></label><tips>密码请为6-16位英文数字</tips></div>
+				<div>
+					<label>性别</label>
+					<input type="radio" name="sex" checked="checked"/>男
+					<input type="radio" name="sex" />女
+				</div>
+
+				<div>
+					<label>城市 </label>
+					<select>
+						<option value="aizelasi">艾泽拉斯</option>
+						<option value="demaxiya">德玛西亚</option>
+						<option value="manhuang">蛮荒之地</option>
+						<option value="buzhichu">云深不知处</option>
 					</select>
-				</label>
-				<br />
-				<span>爱好：</span>
-				<label><input type="checkbox" name="interest" value="sport" />运动</label>
-				<label><input type="checkbox" name="interest" value="art" checked />艺术</label>
-				<label><input type="checkbox" name="interest" value="sci" />科学</label>
-				<br />
-				<label>个人描述：<textarea name="desc" placeholder="请一句话对你自己进行描述" rows="5" cols="60"></textarea></label>
-				<br />
-				<button type="submit">确认提交</button>
+				</div>
+				<div>
+					<label>爱好 </label>
+					<input type="checkbox" name="favorite" />运动
+					<input type="checkbox" name="favorite" />艺术
+					<input type="checkbox" name="favorite" />科学
+				</div>
+				<div>
+					<label>个人描述 </label>
+					<textarea>这是一个多行输入框，输入您的个人描述</textarea>
+				</div>
+				<div><input class="btn-submit" type="submit" value="确认提交" /></div>
 			</form>
 		</aside>
 		<footer>
-			<span>版权所有&copy; by the team js高手之路</span>
+			<span>版权所有&copy;Jet Yu</span>
 		</footer>
 	</body>
 </html>	

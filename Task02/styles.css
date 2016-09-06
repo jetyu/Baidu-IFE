@@ -7,6 +7,7 @@
 
 body{
 		background-color: #eeeeee;
+
 }
 
 div{
@@ -93,7 +94,7 @@ article table thead tr th{
 }
 
  tbody tr td{
-	width: 500px;
+	 width: 500px;
  }
 
  tfoot tr td{
@@ -102,5 +103,37 @@ article table thead tr th{
  }
 
  aside h2{
- 	border-left: 1px solid #eeeeee;
+	 border-left: 5px solid #eeeeee;
+	 padding-left: 20px;
  }
+
+label {
+    display: inline-block;
+    width: 45%;
+    text-align: right;
+    margin: 10px;
+}
+
+.btn-submit {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 16px;
+    padding: 7px;
+    background-color: #3355d0;
+    border: none;
+    color: #fafafa;
+    border-radius: 8px;
+}
+
+aside{
+    margin-top:20px;
+    width:100%;
+    float:right;
+    background:white;
+    padding:20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
