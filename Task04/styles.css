@@ -1,0 +1,37 @@
+/*重置页面*/
+.containter{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*矩形样式*/
+.rectangle{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    background-color: #ccc;
+    top: 50%;
+    margin-top: -100px;
+    left: 50%;
+    margin-left: -200px;
+}
+
+/*左上角扇形*/
+.radius-left-top{
+    width: 50px;
+    height: 50px;
+    border-radius: 0 0 50px 0;
+    position: absolute;
+    background-color: #FC0;
+}
+
+/*右下角扇形*/
+.radius-right-bottom{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px 0 0 0;
+    position: absolute;
+    background-color: #FC0;
+    right: 0;
+    bottom: 0;
+}

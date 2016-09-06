@@ -36,36 +36,10 @@ div{
 .nav-list{display: inline-block;
 	float: right;
 }
-
-/*
-.nav-header nav {
-  background-color: #333;
+article figure img{
+    width: 180px;
+    height: 180px;
 }
-
-.nav-header nav .nav-logo {
-  display: inline-block;
-}
-
-.nav-header nav .nav-list {
-  display: inline-block;
-  float: right;
-}
-
-.nav-header nav .nav-list ul {
-  display: inline-block;
-  margin-top: 15px;
-}
-
-.nav-header nav .nav-list ul li {
-  font-size: 14px;
-  float: left;
-  margin-right: 25px;
-}
-
-.nav-header nav .nav-list ul li a {
-  text-decoration: none;
-  color: #ffffff;
-}*/
 
 article,aside{
 	background-color: #ffffff;
