@@ -80,3 +80,27 @@ figure{
 	width: 240px;
 }
  
+
+table{
+	 border-collapse:collapse;
+	 font-weight: bold;
+}
+
+article table thead tr th{	
+	background: #333333;
+	color:white;
+	text-align: left;
+}
+
+ tbody tr td{
+	width: 500px;
+ }
+
+ tfoot tr td{
+ 	background: #eeeeee;
+ 	border:0px;
+ }
+
+ aside h2{
+ 	border-left: 1px solid #eeeeee;
+ }
