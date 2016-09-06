@@ -1,0 +1,82 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Microsoft Yahei;
+	box-sizing: border-box;
+}
+
+body{
+		background-color: #eeeeee;
+}
+
+div{
+	display: block;
+}
+/*顶栏式样*/
+.nav-header nav{
+	background-color: #333;
+ 	margin-bottom: 10px;
+	width: 100%; 
+}
+
+.nav-logo{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.nav-list ul li{
+	display: inline-block;
+  	margin-top: 10px;
+ 	padding: 10px;
+}
+.nav-list ul li a{
+	text-decoration: none;
+	color: white;
+}
+.nav-list{display: inline-block;
+	float: right;
+}
+
+/*
+.nav-header nav {
+  background-color: #333;
+}
+
+.nav-header nav .nav-logo {
+  display: inline-block;
+}
+
+.nav-header nav .nav-list {
+  display: inline-block;
+  float: right;
+}
+
+.nav-header nav .nav-list ul {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.nav-header nav .nav-list ul li {
+  font-size: 14px;
+  float: left;
+  margin-right: 25px;
+}
+
+.nav-header nav .nav-list ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}*/
+
+article,aside{
+	background-color: #ffffff;
+	padding: 30px;
+	margin: 10px;
+}
+
+figure{
+	border: 1px  solid #eeeeee;
+	text-align: center;
+	padding: 10px;
+	margin:20px;
+	width: 240px;
+}
+ 
