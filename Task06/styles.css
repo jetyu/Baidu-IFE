@@ -77,52 +77,65 @@
   background-color:#ed281b ;
   opacity: 0.20;
 }
-/*右侧about的样式*/
+/*右侧about总体的样式*/
 .text-main{
+  position: relative;
   height: 301px;
   width: 203px;
+  float: right;
+  margin-right: 44px;
+  margin-top: -300px;
 }
-
+/*右侧横线样式*/
 .text-hr{
   width: 203px;
   height: 2px;
   color: #cc8091;
 }
-
+/*右侧about，technology样式*/
 .text-about,.text-tech{
-  /*缺少段落间距*/
+  font-variant: small-caps;
+  padding-top:20px;
+  padding-bottom: 20px;
   text-decoration: underline;
   font-size: 24px;
   font-family: Microsoft Yahei;
   color: #000000;
 }
-
+/*右侧about-technology样式*/
 .text-about-tech{
   font-size: 12px;
   color: #676767;
-  /*缺少段落间距*/
+  padding-top:10px;
+  padding-bottom: 10px;
   font-family: KaiTi;
+  font-style: italic;
 }
-
+/*右侧数字700样式*/
 .text-700{
+  font-weight: bold;
   font-size: 116px;
   color: #75b86b;
   font-family: Microsoft Yahei;
   font-style: italic;
+  margin-left: -15px;
 }
-
+/*.number-part{
+  margin:-15px auto;
+}*/
+/*右侧数字3.2样式*/
 .text-32{
   font-size: 55px;
   color: #cc8091;
   font-family: Microsoft Yahei;
 }
-
+/*右侧字母CSS样式*/
 .text-css{
   font-size: 21px;
   color: #cc8091;
   font-family: Microsoft Yahei;
 }
-
+/*右侧字母csscss样式*/
 .text-csscss{
   font-size: 12px;
   color: #cc8091;
