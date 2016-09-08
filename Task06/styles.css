@@ -4,12 +4,15 @@
     font-family: 黑体;
     box-sizing: border-box;
 }
+
+div,p{
+  display: block;
+}
 /**设置整个页面的样式*/
 .home-page{
   width:980px;
   height:1386px;
-  margin: auto;
-  overflow: auto;
+  margin: 0 auto;
 }
 /*IFE的logo样式*/
 .header-logo{
@@ -46,16 +49,15 @@
   color: #983e8c;
 }
 /*主图框样式*/
-.page-middle{
-  padding-top:10px;
-  padding-bottom: 10px;
+.page-middle1{
+  margin: 44px;
 }
 /*主图样式*/
 .img-main{
   position: relative;
+  float: left;
   width: 641px;
   height: 301px;
-  margin-left: 44px;
 }
 /*覆盖图片左侧绿色样式*/
 .img-left{
@@ -83,8 +85,7 @@
   height: 301px;
   width: 203px;
   float: right;
-  margin-right: 44px;
-  margin-top: -300px;
+
 }
 /*右侧横线样式*/
 .text-hr{
@@ -94,22 +95,22 @@
 }
 /*右侧about，technology样式*/
 .text-about,.text-tech{
-  font-variant: small-caps;
-  padding-top:20px;
-  padding-bottom: 20px;
-  text-decoration: underline;
   font-size: 24px;
-  font-family: Microsoft Yahei;
-  color: #000000;
+  color: black;
+  font-family: 微软雅黑;
+  line-height: 40px;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-variant: small-caps;
 }
 /*右侧about-technology样式*/
 .text-about-tech{
+  margin-top: -20px;
   font-size: 12px;
+  line-height: 10px;
   color: #676767;
-  padding-top:10px;
-  padding-bottom: 10px;
-  font-family: KaiTi;
-  font-style: italic;
+  font-family: 楷体;
+  font-style: oblique;
 }
 /*右侧数字700样式*/
 .text-700{
@@ -117,27 +118,126 @@
   font-size: 116px;
   color: #75b86b;
   font-family: Microsoft Yahei;
-  font-style: italic;
-  margin-left: -15px;
+  font-style: oblique;
+  margin-left: -18px;
+  margin-top:30px;
 }
-/*.number-part{
-  margin:-15px auto;
-}*/
 /*右侧数字3.2样式*/
 .text-32{
   font-size: 55px;
   color: #cc8091;
   font-family: Microsoft Yahei;
+  position: absolute;
+  bottom: -10px;
 }
 /*右侧字母CSS样式*/
 .text-css{
+  position: absolute;
   font-size: 21px;
   color: #cc8091;
   font-family: Microsoft Yahei;
+  bottom: 10px;
+  left:80px;
 }
 /*右侧字母csscss样式*/
 .text-csscss{
+  position: absolute;
   font-size: 12px;
-  color: #cc8091;
+  color: #cbcbcb;
   font-family: Microsoft Yahei;
+  bottom: 0;
+  left:80px;
+}
+
+.page-middle2{
+  margin: 44px;
+  width: 888px;
+  float: left;
+  overflow: auto;
+}
+
+.text-what{
+  float: left;
+  width: 230px;
+}
+
+.text-what h3{
+  padding: 10px 0;
+  font-size: 16px;
+  color: #418c59;
+  font-family: 微软雅黑;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.text-what p{
+  font-size: 12px;
+  colro:#231815;
+  font-family: 微软雅黑;
+  line-height: 16px;
+  opacity：0.3;
+}
+
+.text-when{
+  width: 210px;
+  float: left;
+  margin-left: 20px;
+
+}
+
+.text-when h3{
+  padding: 10px 0;
+  font-size: 16px;
+  color: #beb138;
+  font-family: 微软雅黑;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.text-when p{
+  font-size: 12px;
+  colro:#231815;
+  font-family: 微软雅黑;
+  line-height: 16px;
+  opacity：0.3;
+}
+
+.text-how{
+  width: 170px;
+  float: left;
+  margin-left: 20px;
+
+}
+
+.text-how h3{
+  padding: 10px 0;
+  font-size: 16px;
+  color: #beb138;
+  font-family: 微软雅黑;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.text-how p{
+  font-size: 16px;
+  colro:#231815;
+  font-family: 微软雅黑;
+  line-height: 16px;
+  opacity：0.3;
+}
+
+.text-how ul {
+    margin-top: 45px;
+    display: inline-block;
+    list-style: none;
+    font-size: 12px;
+    color: #231815;
+    line-height: 16px;
+    font-family: "微软雅黑";
+}
+
+.text-how ul li span{
+  font-style: oblique;
+  color: #e07f7f;
+  opacity：0.3;
 }
