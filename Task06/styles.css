@@ -1,10 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 黑体;
     box-sizing: border-box;
 }
-
 div,p{
   display: block;
 }
@@ -240,4 +238,98 @@ div,p{
   font-style: oblique;
   color: #e07f7f;
   opacity：0.3;
+}
+
+.text-top{
+  width: 415px;
+
+}
+
+.the{
+  font-size: 72px;
+  color: #f5e327;
+  font-family: 黑体;
+  font-style:italic;
+  font-weight: bold;
+}
+
+.technologe{
+  float: right;
+  margin-top: -55px;
+  font-size: 42px;
+  color: #11456b;
+  font-family: 黑体;
+  font-weight: bold;
+}
+
+.of-front{
+  font-size: 42px;
+  color: #11456b;
+  font-family: 黑体;
+  font-weight: bold;
+}
+
+.qianduanjishulingyu{
+  font-size: 33px;
+  color: #11456b;
+  font-family: 黑体;
+  font-weight: bold;
+}
+
+.text-top hr{
+  margin:10px 0;
+  color: #11456b;
+  width: 415px;
+  height: 2px;
+}
+
+.text-the-qianduan{
+  text-indent: 0em;
+  clear: both;
+}
+
+.text-the-qianduan p:first-letter {
+    padding: 10px;
+    float: left;
+    font-size: 70px;
+    color: #f5e327;
+    font-family: "微软雅黑";
+    line-height: 70px;
+}
+
+.sepcial{
+  float: left;
+  width: 415px;
+  font-size: 12px;
+  color: #767777;
+  font-family: 宋体;
+  /*margin-top: -250px;*/
+  line-height: 16px;
+}
+
+.text-the-qianduan img{
+  float: right;
+  margin: 10px 0px 10px 10px;
+}
+
+.page-middle3{
+  margin: 44px;
+  width: 888px;
+  float: left;
+}
+
+.text-right{
+  margin-top: -180px;
+  float: right;
+  width: 458px;
+  height: 275px;
+  margin-right: -44px;
+}
+
+.cover-bottom{
+  margin-top: -63px;
+  width: 458px;
+  height: 61px;
+  background-color: #5c5c5c;
+  opacity: 0.20;
 }
