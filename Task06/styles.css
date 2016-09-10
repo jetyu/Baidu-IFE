@@ -333,3 +333,19 @@ div,p{
   background-color: #5c5c5c;
   opacity: 0.20;
 }
+
+.cover-line{
+  border-left: 3px solid #72b16a;
+  height:44px;
+  margin-left: 30px;
+  margin-top: -50px;
+
+}
+
+.fe-tech{
+  font-size: 26px;
+  font-weight: bold;
+  color:#ffffff;
+  margin-top: -35px;
+  margin-left: 40px;
+}
