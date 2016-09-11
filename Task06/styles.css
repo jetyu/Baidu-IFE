@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 div,p{
   display: block;
 }
@@ -348,4 +349,35 @@ div,p{
   color:#ffffff;
   margin-top: -35px;
   margin-left: 40px;
+}
+
+.fe-techtech{
+  font-size: 12px;
+  color: #72b16a;
+  line-height: 140%;
+  font-family: 微软雅黑;
+  font-style:italic;
+  margin-left: 150px;
+  margin-top: -15px;
+}
+
+.text-bottom{
+  height: 318px;
+  width: 459px;
+  background-color:#f1e2b4;
+  margin-top: 155px;
+  margin-left: 475px;
+}
+
+.text-bottom-text2{
+  float: left;
+  width: 260px;
+  height: 160px;
+  background-color: #d45d5c;
+  margin-top: 158px;
+}
+
+.text-bottom-t1,.text-bottom-t2,.text-bottom-t3{
+  position: relative;
+  left:0px;
 }
