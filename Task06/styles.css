@@ -362,6 +362,7 @@ div,p{
 }
 
 .text-bottom{
+  position: relative;
   height: 318px;
   width: 459px;
   background-color:#f1e2b4;
@@ -374,10 +375,88 @@ div,p{
   width: 260px;
   height: 160px;
   background-color: #d45d5c;
-  margin-top: 158px;
+margin: 30px 20px 0 0;
+}
+
+.text-bottom-text1{
+  position: relative;
+  padding: 10px;
 }
 
 .text-bottom-t1,.text-bottom-t2,.text-bottom-t3{
+  padding:10px;
+}
+
+.triangle-up {
+    position: absolute;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid black;
+    margin: 5px -15px;
+ }
+
+.front-end{
+  font-size: 12px;
+  color: #5a5b5b;
+  font-family: 宋体;
+  font-style: italic;
+  line-height: 20px;
+  float: right;
+}
+
+.zero{
+  font-size: 110px;
+  color: #ffffff;
+  border-right: 2px solid #ffffff;
+  height: 86px;
+  margin: 20px 160px 20px 20px;
+}
+
+.number{
+  font-size: 21px;
+  color:#ffffff;
+  font-style: italic;
+  width: 180px;
+  margin: -100px 10px auto 105px;
+}
+
+.hello{
+  font-size: 12px;
+  color:#ffffff;
+  width: 140px;
+  margin: 10px 10px auto 105px;
+}
+
+.yinhao_front{
+  font-size: 72px;
+  color: #d45d5c;
+  font-family: 黑体;
+  position: absolute;
+  bottom: 120px;
+  right: 140px;
+  font-style: normal;
+}
+
+.yinhao_end{
+  font-size: 72px;
+  color: #d45d5c;
+  font-family: 黑体;
+  position: absolute;
+  right: 60px;
+  bottom: -30px;
+  font-style: normal;
+}
+
+.hw{
+  font-size: 14px;
+  color: rgb(90, 91, 91);
+  font-family: 黑体;
+  font-style: oblique;
+  line-height: 16px;
+  text-indent: 3em;
+}
+
+.text-bottom-text3{
   position: relative;
-  left:0px;
+  top:30px;
 }
