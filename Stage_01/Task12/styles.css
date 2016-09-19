@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.table-rank{
+  font-family: Microsoft Yahei;
+  font-weight: bold;
+}
+
+.table-rank th{
+  background-color: black;
+  color: #fff;
+  text-align: left;
+}
+
+.table-content td{
+   color: red;
+}
+
+.table-rank tr:nth-child(2n+1){
+    background-color: #CCCCCC;
+}
+
+form input{
+    margin-top: 50px;
+    height: 22px;
+    width: 100px;
+    transition: 0.5s width;
+    outline: none;
+}
+
+form input:focus{
+    width: 200px;
+}
