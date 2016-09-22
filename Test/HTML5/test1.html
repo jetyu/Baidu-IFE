@@ -5,14 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+
 </head>
 <body>
-  <article class="">
-    <header>
-        <h1>我是article</h1>
-        <p>创建时间 </p>
-    </header>
-
-  </article>
+  <canvas id="canvas" width="300" height="300">1</canvas>
+  <script>
+  var getCanvas=document.getElementById("canvas");
+  var creatCtx=getCanvas.getContext("2d");
+  creatCtx.fillStyle="#FF0000";
+  creatCtx.fillRect(100,100,150,75);
+  creatCtx.moveTo(0,0);
+  creatCtx.lineTo(200,100);
+  creatCtx.stroke();
+  creatCtx.beginPath();
+  creatCtx.arc(95,50,40,0,2*Math.PI);
+  creatCtx.stroke();
+  </script>
 </body>
 </html>
