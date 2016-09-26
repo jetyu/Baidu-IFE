@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+html	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^<html>$/;"	function	line:2
+head	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^  <head>$/;"	function	line:3
+meta	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^    <meta charset="utf-8">$/;"	function	line:4
+title	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^    <title>IFE JavaScript Task 01<\/title>$/;"	function	line:5
+body	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^<body>$/;"	function	line:7
+ul	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^  <ul id="source">$/;"	function	line:9
+li	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^    <li>北京空气质量：<b>90<\/b><\/li>$/;"	function	line:10
+li	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^    <li>上海空气质量：<b>70<\/b><\/li>$/;"	function	line:11
+li	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^    <li>天津空气质量：<b>80<\/b><\/li>$/;"	function	line:12
+li	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^    <li>广州空气质量：<b>50<\/b><\/li>$/;"	function	line:13
+li	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^    <li>深圳空气质量：<b>40<\/b><\/li>$/;"	function	line:14
+li	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^    <li>福州空气质量：<b>32<\/b><\/li>$/;"	function	line:15
+li	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^    <li>成都空气质量：<b>90<\/b><\/li>$/;"	function	line:16
+ul	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^  <ul id="resort">$/;"	function	line:19
+li	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^    <li>第一名：北京空气质量：<b>90<\/b><\/li>$/;"	function	line:21
+li	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^    <li>第二名：北京空气质量：<b>90<\/b><\/li>$/;"	function	line:22
+li	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^    <li>第三名：北京空气质量：<b>90<\/b><\/li>$/;"	function	line:23
+button	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^  <button id="sort-btn">排序<\/button>$/;"	function	line:28
+script	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^<script type="text\/javascript">$/;"	function	line:30
+getData	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^function getData() {$/;"	function	line:38
+sortAqiData	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^function sortAqiData(data) {$/;"	function	line:49
+render	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^function render(data) {$/;"	function	line:58
+btnHandle	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^function btnHandle() {$/;"	function	line:62
+init	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^function init() {$/;"	function	line:69

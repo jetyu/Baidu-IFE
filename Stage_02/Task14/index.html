@@ -24,28 +24,29 @@ var aqiData = [
   ["西安", 100]
 ];
 
-
+(function () {
   /*
   在注释下方编写代码
   遍历读取aqiData中各个城市的数据
   将空气质量指数大于60的城市显示到aqi-list的列表中
   */
-
-
-  //先排序
-  aqiData = aqiData.sort(
-    function (a,b) {
+	var aqilist = document.getElementById('aqi-list');
+	/*
+	几种排序算法
+	http://www.cnblogs.com/idche/archive/2011/02/16/1956397.html
+	*/
+	aqiData.sort(
+    function(a, b){
       return b[1] - a[1];
     }
   );
 
-var apilist = document.getElementById('aqi-list');
-for (var i = 0; i < aqiData.length; i++) {
-  if (aqiData[i] > 60) {
-    apilist.innerHTML += '<li>第'+ (i+1) +'名:'+ aqiData[i][0] + aqiData[i][1]+'</li>';
-  }
-}
-
+	for(var i=0;i<aqiData.length;i++){
+	  if(aqiData[i][1] >= 60){
+		  aqilist.innerHTML += '<li>第'+ (i+1) +'名:'+ aqiData[i][0] + aqiData[i][1]+'</li>';
+		}
+	}
+})();
 
 </script>
 </body>

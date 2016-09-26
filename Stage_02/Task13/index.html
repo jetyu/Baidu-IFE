@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>IFE JavaScript Task 13</title>
+  </head>
+<body>
+
+  <label>请输入北京今天空气质量：<input id="aqi-input" type="text"></label>
+  <button id="button" onclick="getValue()">确认填写</button>
+  <div>您输入的值是：<span id="aqi-display">尚无录入</span></div>
+
+<script type="text/javascript">
+var input  = document.getElementById('aqi-input');
+var output = document.getElementById("aqi-display");
+
+function getValue() {
+  if(input.value < 1000){
+     output.innerText = input.value;
+  }else{
+    alert("空气指数已经爆表！空气质量数值只能在1-999之间");
+    output.innerText = "空气质量数值只能在1-999之间。";
+  }
+}
+
+
+</script>
+</body>
+</html>
