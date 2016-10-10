@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<p id="demo1">这是第一个元素</p>
+<strong id="demo2">这是第二个元素</strong><br>
+<button type="button" name="button" onclick="changeElement()">改变元素</button>
+<script type="text/javascript">
+function changeElement() {
+  document.getElementById('demo1').innerHTML="这是第一个新元素";
+  document.getElementById('demo2').innerHTML="这是第二个新元素";
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+$("#button-hide").click(
+  function (){
+    $(".test").toggle(1000);
+  });
+$("#button-show").click(
+  function (){
+    $(".test").show();
+  });
+$("#button-fadeIn").click(
+  function (){
+    $(".test").fadeIn();
+  });
+$("#button-fadeOut").click(
+  function (){
+    $(".test").fadeToggle();
+  });
+});
+</script>
+<style type="text/css">
+button{
+  background-color: rgb(123, 63, 233);
+  color: white;
+}
+</style>
+</head>
+<body>
+<button type="button" name="button" id="button-hide">显示/隐藏toggle</button>
+<button type="button" name="button" id="button-show">显示内容</button>
+<button type="button" name="button" id="button-fadeIn">淡入内容</button>
+<button type="button" name="button" id="button-fadeOut">切入淡入淡出内容</button>
+<div class="test">
+    <p>测试</p>
+  隐藏此行
+</div>
+
+
+</body>
+</html>

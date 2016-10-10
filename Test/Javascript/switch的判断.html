@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<button type="button" name="button" onclick="myFunc()">判断周几</button>
+<p id="demo"></p>
+<script type="text/javascript">
+  function myFunc() {
+    var day = new Date().getDay();
+    switch (day) {
+      case 0:x="今天是周日";
+      break;
+      case 1:x="今天是周一";
+      break;
+      case 2:x="今天是周二";
+      break;
+      case 3:x="今天是周三";
+      break;
+      case 4:x="今天是周四";
+      break;
+      case 5:x="今天是周五";
+      break;
+      case 6:x="今天是周六";
+      break;
+      default:
+    }
+    document.getElementById("demo").innerHTML=x;
+  }
+</script>
+</body>
+</html>

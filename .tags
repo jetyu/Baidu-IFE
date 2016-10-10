@@ -671,6 +671,16 @@ button	C:\Front-End\Baidu-IFE\Stage_02\Task13\index.html	/^  <button id="button"
 div	C:\Front-End\Baidu-IFE\Stage_02\Task13\index.html	/^  <div>您输入的值是：<span id="aqi-display">尚无录入<\/span><\/div>$/;"	function	line:11
 script	C:\Front-End\Baidu-IFE\Stage_02\Task13\index.html	/^<script type="text\/javascript">$/;"	function	line:13
 getValue	C:\Front-End\Baidu-IFE\Stage_02\Task13\index.html	/^function getValue() {$/;"	function	line:17
+html	C:\Front-End\Baidu-IFE\Stage_02\Task13\jqueryMethod.html	/^<html>$/;"	function	line:2
+head	C:\Front-End\Baidu-IFE\Stage_02\Task13\jqueryMethod.html	/^  <head>$/;"	function	line:3
+meta	C:\Front-End\Baidu-IFE\Stage_02\Task13\jqueryMethod.html	/^    <meta charset="utf-8">$/;"	function	line:4
+script	C:\Front-End\Baidu-IFE\Stage_02\Task13\jqueryMethod.html	/^    <script src="http:\/\/cdn.static.runoob.com\/libs\/jquery\/1.10.2\/jquery.min.js"><\/script>$/;"	function	line:5
+title	C:\Front-End\Baidu-IFE\Stage_02\Task13\jqueryMethod.html	/^    <title>IFE JavaScript Task 13<\/title>$/;"	function	line:6
+body	C:\Front-End\Baidu-IFE\Stage_02\Task13\jqueryMethod.html	/^<body>$/;"	function	line:8
+label	C:\Front-End\Baidu-IFE\Stage_02\Task13\jqueryMethod.html	/^  <label>请输入北京今天空气质量：<input id="aqi-input" type="text"><\/label>$/;"	function	line:10
+button	C:\Front-End\Baidu-IFE\Stage_02\Task13\jqueryMethod.html	/^  <button id="button">确认填写<\/button>$/;"	function	line:11
+div	C:\Front-End\Baidu-IFE\Stage_02\Task13\jqueryMethod.html	/^  <div>您输入的值是：<span id="aqi-display"><\/span><\/div>$/;"	function	line:12
+script	C:\Front-End\Baidu-IFE\Stage_02\Task13\jqueryMethod.html	/^<script type="text\/javascript">$/;"	function	line:14
 html	C:\Front-End\Baidu-IFE\Stage_02\Task14\index.html	/^<html>$/;"	function	line:2
 head	C:\Front-End\Baidu-IFE\Stage_02\Task14\index.html	/^  <head>$/;"	function	line:3
 meta	C:\Front-End\Baidu-IFE\Stage_02\Task14\index.html	/^    <meta charset="utf-8">$/;"	function	line:4
@@ -681,18 +691,72 @@ ul	C:\Front-End\Baidu-IFE\Stage_02\Task14\index.html	/^  <ul id="aqi-list">$/;"	
 li	C:\Front-End\Baidu-IFE\Stage_02\Task14\index.html	/^    <li>第一名：福州（样例），10<\/li>$/;"	function	line:12
 li	C:\Front-End\Baidu-IFE\Stage_02\Task14\index.html	/^  	<li>第二名：福州（样例），10<\/li> -->$/;"	function	line:13
 script	C:\Front-End\Baidu-IFE\Stage_02\Task14\index.html	/^<script type="text\/javascript">$/;"	function	line:16
+html	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^<html>$/;"	function	line:2
+head	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^  <head>$/;"	function	line:3
+meta	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^    <meta charset="utf-8">$/;"	function	line:4
+title	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^    <title>IFE JavaScript Task 01<\/title>$/;"	function	line:5
+body	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^<body>$/;"	function	line:7
+ul	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^  <ul id="source">$/;"	function	line:9
+li	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^    <li>北京空气质量：<b>90<\/b><\/li>$/;"	function	line:10
+li	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^    <li>上海空气质量：<b>70<\/b><\/li>$/;"	function	line:11
+li	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^    <li>天津空气质量：<b>80<\/b><\/li>$/;"	function	line:12
+li	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^    <li>广州空气质量：<b>50<\/b><\/li>$/;"	function	line:13
+li	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^    <li>深圳空气质量：<b>40<\/b><\/li>$/;"	function	line:14
+li	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^    <li>福州空气质量：<b>32<\/b><\/li>$/;"	function	line:15
+li	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^    <li>成都空气质量：<b>90<\/b><\/li>$/;"	function	line:16
+ul	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^  <ul id="resort">$/;"	function	line:19
+li	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^    <li>第一名：北京空气质量：<b>90<\/b><\/li>$/;"	function	line:21
+li	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^    <li>第二名：北京空气质量：<b>90<\/b><\/li>$/;"	function	line:22
+li	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^    <li>第三名：北京空气质量：<b>90<\/b><\/li>$/;"	function	line:23
+button	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^  <button id="sort-btn">排序<\/button>$/;"	function	line:28
+script	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^<script type="text\/javascript">$/;"	function	line:30
+getData	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^function getData() {$/;"	function	line:37
+sortAqiData	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^function sortAqiData(data) {$/;"	function	line:62
+render	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^function render(data) {$/;"	function	line:71
+btnHandle	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^function btnHandle() {$/;"	function	line:75
+init	C:\Front-End\Baidu-IFE\Stage_02\Task15\index.html	/^function init() {$/;"	function	line:82
+html	C:\Front-End\Baidu-IFE\Test\HTML5\fade.html	/^<html>$/;"	function	line:2
+head	C:\Front-End\Baidu-IFE\Test\HTML5\fade.html	/^<head>$/;"	function	line:3
+meta	C:\Front-End\Baidu-IFE\Test\HTML5\fade.html	/^<meta charset="utf-8">$/;"	function	line:4
+script	C:\Front-End\Baidu-IFE\Test\HTML5\fade.html	/^<script src="http:\/\/cdn.static.runoob.com\/libs\/jquery\/1.10.2\/jquery.min.js">$/;"	function	line:5
+script	C:\Front-End\Baidu-IFE\Test\HTML5\fade.html	/^<script>$/;"	function	line:7
+style	C:\Front-End\Baidu-IFE\Test\HTML5\fade.html	/^<style type="text\/css">$/;"	function	line:27
+body	C:\Front-End\Baidu-IFE\Test\HTML5\fade.html	/^<body>$/;"	function	line:34
+button	C:\Front-End\Baidu-IFE\Test\HTML5\fade.html	/^<button type="button" name="button" id="button-hide">显示\/隐藏toggle<\/button>$/;"	function	line:35
+button	C:\Front-End\Baidu-IFE\Test\HTML5\fade.html	/^<button type="button" name="button" id="button-show">显示内容<\/button>$/;"	function	line:36
+button	C:\Front-End\Baidu-IFE\Test\HTML5\fade.html	/^<button type="button" name="button" id="button-fadeIn">淡入内容<\/button>$/;"	function	line:37
+button	C:\Front-End\Baidu-IFE\Test\HTML5\fade.html	/^<button type="button" name="button" id="button-fadeOut">切入淡入淡出内容<\/button>$/;"	function	line:38
+div	C:\Front-End\Baidu-IFE\Test\HTML5\fade.html	/^<div class="test">$/;"	function	line:39
+p	C:\Front-End\Baidu-IFE\Test\HTML5\fade.html	/^    <p>测试<\/p>$/;"	function	line:40
+html	C:\Front-End\Baidu-IFE\Test\HTML5\fadeChange.html	/^<html lang="en">$/;"	function	line:2
+head	C:\Front-End\Baidu-IFE\Test\HTML5\fadeChange.html	/^<head>$/;"	function	line:3
+meta	C:\Front-End\Baidu-IFE\Test\HTML5\fadeChange.html	/^  <meta charset="UTF-8">$/;"	function	line:4
+meta	C:\Front-End\Baidu-IFE\Test\HTML5\fadeChange.html	/^  <meta name="viewport" content="width=device-width, initial-scale=1.0">$/;"	function	line:5
+script	C:\Front-End\Baidu-IFE\Test\HTML5\fadeChange.html	/^  <script src="http:\/\/cdn.static.runoob.com\/libs\/jquery\/1.10.2\/jquery.min.js"><\/script>$/;"	function	line:6
+meta	C:\Front-End\Baidu-IFE\Test\HTML5\fadeChange.html	/^  <meta http-equiv="X-UA-Compatible" content="ie=edge">$/;"	function	line:7
+title	C:\Front-End\Baidu-IFE\Test\HTML5\fadeChange.html	/^  <title>Document<\/title>$/;"	function	line:8
+script	C:\Front-End\Baidu-IFE\Test\HTML5\fadeChange.html	/^<script type="text\/javascript">$/;"	function	line:10
+body	C:\Front-End\Baidu-IFE\Test\HTML5\fadeChange.html	/^<body>$/;"	function	line:19
+button	C:\Front-End\Baidu-IFE\Test\HTML5\fadeChange.html	/^  <button type="button" name="button" id="button">切入淡入淡出<\/button>$/;"	function	line:20
+div	C:\Front-End\Baidu-IFE\Test\HTML5\fadeChange.html	/^<div class="fade">$/;"	function	line:21
+p	C:\Front-End\Baidu-IFE\Test\HTML5\fadeChange.html	/^  <p>测试<\/p>$/;"	function	line:22
+aqiData	C:\Front-End\Baidu-IFE\Test\HTML5\test.js	/^var aqiData = [$/;"	variable	line:1
 html	C:\Front-End\Baidu-IFE\Test\HTML5\test1.html	/^<html lang="en">$/;"	function	line:2
 head	C:\Front-End\Baidu-IFE\Test\HTML5\test1.html	/^<head>$/;"	function	line:3
 meta	C:\Front-End\Baidu-IFE\Test\HTML5\test1.html	/^  <meta charset="UTF-8">$/;"	function	line:4
 meta	C:\Front-End\Baidu-IFE\Test\HTML5\test1.html	/^  <meta name="viewport" content="width=device-width, initial-scale=1.0">$/;"	function	line:5
 meta	C:\Front-End\Baidu-IFE\Test\HTML5\test1.html	/^  <meta http-equiv="X-UA-Compatible" content="ie=edge">$/;"	function	line:6
 title	C:\Front-End\Baidu-IFE\Test\HTML5\test1.html	/^  <title>Document<\/title>$/;"	function	line:7
-body	C:\Front-End\Baidu-IFE\Test\HTML5\test1.html	/^<body>$/;"	function	line:10
-canvas	C:\Front-End\Baidu-IFE\Test\HTML5\test1.html	/^  <canvas id="canvas" width="300" height="300">1<\/canvas>$/;"	function	line:11
-script	C:\Front-End\Baidu-IFE\Test\HTML5\test1.html	/^  <script>$/;"	function	line:12
-html	C:\Front-End\Baidu-IFE\Test\HTML5\test1.html	/^<html>$/;"	function	line:27
-head	C:\Front-End\Baidu-IFE\Test\HTML5\test1.html	/^<head>$/;"	function	line:28
-meta	C:\Front-End\Baidu-IFE\Test\HTML5\test1.html	/^<meta http-equiv="Content-Type" content="text\/html; charset=utf-8" \/>$/;"	function	line:29
-title	C:\Front-End\Baidu-IFE\Test\HTML5\test1.html	/^<title>认识语句<\/title>$/;"	function	line:30
-script	C:\Front-End\Baidu-IFE\Test\HTML5\test1.html	/^<script type="text\/javascript">$/;"	function	line:31
-body	C:\Front-End\Baidu-IFE\Test\HTML5\test1.html	/^<body>$/;"	function	line:36
+script	C:\Front-End\Baidu-IFE\Test\HTML5\test1.html	/^  <script type="text\/javascript">$/;"	function	line:8
+body	C:\Front-End\Baidu-IFE\Test\HTML5\test1.html	/^<body>$/;"	function	line:44
+html	C:\Front-End\Baidu-IFE\Test\Javascript\if-else�I���f.html	/^<html lang="en">$/;"	function	line:2
+head	C:\Front-End\Baidu-IFE\Test\Javascript\if-else�I���f.html	/^<head>$/;"	function	line:3
+meta	C:\Front-End\Baidu-IFE\Test\Javascript\if-else�I���f.html	/^  <meta charset="UTF-8">$/;"	function	line:4
+meta	C:\Front-End\Baidu-IFE\Test\Javascript\if-else�I���f.html	/^  <meta name="viewport" content="width=device-width, initial-scale=1.0">$/;"	function	line:5
+meta	C:\Front-End\Baidu-IFE\Test\Javascript\if-else�I���f.html	/^  <meta http-equiv="X-UA-Compatible" content="ie=edge">$/;"	function	line:6
+title	C:\Front-End\Baidu-IFE\Test\Javascript\if-else�I���f.html	/^  <title>Document<\/title>$/;"	function	line:7
+body	C:\Front-End\Baidu-IFE\Test\Javascript\if-else�I���f.html	/^<body>$/;"	function	line:9
+button	C:\Front-End\Baidu-IFE\Test\Javascript\if-else�I���f.html	/^  <button onclick="myFunction()">点击这里<\/button>$/;"	function	line:10
+p	C:\Front-End\Baidu-IFE\Test\Javascript\if-else�I���f.html	/^  <p id="demo"><\/p>$/;"	function	line:11
+script	C:\Front-End\Baidu-IFE\Test\Javascript\if-else�I���f.html	/^  <script>$/;"	function	line:12
+myFunction	C:\Front-End\Baidu-IFE\Test\Javascript\if-else�I���f.html	/^  function myFunction(){$/;"	function	line:13

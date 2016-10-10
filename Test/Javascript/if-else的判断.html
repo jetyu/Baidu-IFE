@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <button type="button" name="button" onclick="checked()">判断时间</button>
+  <p id="demo"></p>
+  <script type="text/javascript">
+  function checked() {
+      var nowTime =new Date().getHours();
+      if(nowTime<18){
+        document.getElementById("demo").innerHTML="早上好";
+      }else {
+        document.getElementById("demo").innerHTML="晚上好";
+      }
+  }
+  </script>
+</body>
+</html>

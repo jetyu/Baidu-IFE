@@ -35,18 +35,21 @@ var aqiData = [
 	几种排序算法
 	http://www.cnblogs.com/idche/archive/2011/02/16/1956397.html
 	*/
-	aqiData.sort(
-    function(a, b){
+//排序
+	aqiData.sort(function(a, b){
       return b[1] - a[1];
-    }
-  );
-
-	for(var i=0;i<aqiData.length;i++){
+    });
+//遍历并筛选出大于60的城市
+ var len = aqiData.length;
+ for(var i = 0;i < len;i++){
+    //这么写的好处是长度只计算了一次，然后缓存了。直接写的话，会反复计算。如下例；
+    //  for (var i = 0; i < aqiData.length; i++){
 	  if(aqiData[i][1] >= 60){
 		  aqilist.innerHTML += '<li>第'+ (i+1) +'名:'+ aqiData[i][0] + aqiData[i][1]+'</li>';
 		}
 	}
-})();
+})
+();
 
 </script>
 </body>
