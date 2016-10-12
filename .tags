@@ -679,7 +679,7 @@ title	C:\Front-End\Baidu-IFE\Stage_02\Task13\jqueryMethod.html	/^    <title>IFE 
 body	C:\Front-End\Baidu-IFE\Stage_02\Task13\jqueryMethod.html	/^<body>$/;"	function	line:8
 label	C:\Front-End\Baidu-IFE\Stage_02\Task13\jqueryMethod.html	/^  <label>è¯·è¾“å…¥åŒ—äº¬ä»Šå¤©ç©ºæ°”è´¨é‡ï¼š<input id="aqi-input" type="text"><\/label>$/;"	function	line:10
 button	C:\Front-End\Baidu-IFE\Stage_02\Task13\jqueryMethod.html	/^  <button id="button">ç¡®è®¤å¡«å†™<\/button>$/;"	function	line:11
-div	C:\Front-End\Baidu-IFE\Stage_02\Task13\jqueryMethod.html	/^  <div>æ‚¨è¾“å…¥çš„å€¼æ˜¯ï¼š<span id="aqi-display"><\/span><\/div>$/;"	function	line:12
+div	C:\Front-End\Baidu-IFE\Stage_02\Task13\jqueryMethod.html	/^  <div>æ‚¨è¾“å…¥çš„å€¼æ˜¯ï¼š<span id="aqi-display" ><\/span><\/div>$/;"	function	line:12
 script	C:\Front-End\Baidu-IFE\Stage_02\Task13\jqueryMethod.html	/^<script type="text\/javascript">$/;"	function	line:14
 html	C:\Front-End\Baidu-IFE\Stage_02\Task14\index.html	/^<html>$/;"	function	line:2
 head	C:\Front-End\Baidu-IFE\Stage_02\Task14\index.html	/^  <head>$/;"	function	line:3
@@ -749,6 +749,27 @@ meta	C:\Front-End\Baidu-IFE\Test\HTML5\test1.html	/^  <meta http-equiv="X-UA-Com
 title	C:\Front-End\Baidu-IFE\Test\HTML5\test1.html	/^  <title>Document<\/title>$/;"	function	line:7
 script	C:\Front-End\Baidu-IFE\Test\HTML5\test1.html	/^  <script type="text\/javascript">$/;"	function	line:8
 body	C:\Front-End\Baidu-IFE\Test\HTML5\test1.html	/^<body>$/;"	function	line:44
+html	C:\Front-End\Baidu-IFE\Test\Javascript\alertŒx.html	/^<html lang="en">$/;"	function	line:2
+head	C:\Front-End\Baidu-IFE\Test\Javascript\alertŒx.html	/^<head>$/;"	function	line:3
+meta	C:\Front-End\Baidu-IFE\Test\Javascript\alertŒx.html	/^  <meta charset="UTF-8">$/;"	function	line:4
+meta	C:\Front-End\Baidu-IFE\Test\Javascript\alertŒx.html	/^  <meta name="viewport" content="width=device-width, initial-scale=1.0">$/;"	function	line:5
+meta	C:\Front-End\Baidu-IFE\Test\Javascript\alertŒx.html	/^  <meta http-equiv="X-UA-Compatible" content="ie=edge">$/;"	function	line:6
+title	C:\Front-End\Baidu-IFE\Test\Javascript\alertŒx.html	/^  <title>Document<\/title>$/;"	function	line:7
+body	C:\Front-End\Baidu-IFE\Test\Javascript\alertŒx.html	/^<body>$/;"	function	line:9
+button	C:\Front-End\Baidu-IFE\Test\Javascript\alertŒx.html	/^  <button type="button" name="button" onclick="alertFunction()">æ˜¾ç¤ºè­¦å‘Š<\/button>$/;"	function	line:10
+script	C:\Front-End\Baidu-IFE\Test\Javascript\alertŒx.html	/^<script>$/;"	function	line:11
+alertFunction	C:\Front-End\Baidu-IFE\Test\Javascript\alertŒx.html	/^  function alertFunction() {$/;"	function	line:12
+html	C:\Front-End\Baidu-IFE\Test\Javascript\dowhile.html	/^<html lang="en">$/;"	function	line:2
+head	C:\Front-End\Baidu-IFE\Test\Javascript\dowhile.html	/^<head>$/;"	function	line:3
+meta	C:\Front-End\Baidu-IFE\Test\Javascript\dowhile.html	/^  <meta charset="UTF-8">$/;"	function	line:4
+meta	C:\Front-End\Baidu-IFE\Test\Javascript\dowhile.html	/^  <meta name="viewport" content="width=device-width, initial-scale=1.0">$/;"	function	line:5
+meta	C:\Front-End\Baidu-IFE\Test\Javascript\dowhile.html	/^  <meta http-equiv="X-UA-Compatible" content="ie=edge">$/;"	function	line:6
+title	C:\Front-End\Baidu-IFE\Test\Javascript\dowhile.html	/^  <title>Document<\/title>$/;"	function	line:7
+body	C:\Front-End\Baidu-IFE\Test\Javascript\dowhile.html	/^<body>$/;"	function	line:9
+button	C:\Front-End\Baidu-IFE\Test\Javascript\dowhile.html	/^  <button type="button" name="button" onclick="dowhile()">ç‚¹å‡»<\/button>$/;"	function	line:10
+p	C:\Front-End\Baidu-IFE\Test\Javascript\dowhile.html	/^  <p id="demo"><\/p>$/;"	function	line:11
+script	C:\Front-End\Baidu-IFE\Test\Javascript\dowhile.html	/^  <script type="text\/javascript">$/;"	function	line:12
+dowhile	C:\Front-End\Baidu-IFE\Test\Javascript\dowhile.html	/^  function dowhile() {$/;"	function	line:13
 html	C:\Front-End\Baidu-IFE\Test\Javascript\if-else“I”»’f.html	/^<html lang="en">$/;"	function	line:2
 head	C:\Front-End\Baidu-IFE\Test\Javascript\if-else“I”»’f.html	/^<head>$/;"	function	line:3
 meta	C:\Front-End\Baidu-IFE\Test\Javascript\if-else“I”»’f.html	/^  <meta charset="UTF-8">$/;"	function	line:4
@@ -756,7 +777,60 @@ meta	C:\Front-End\Baidu-IFE\Test\Javascript\if-else“I”»’f.html	/^  <meta name="v
 meta	C:\Front-End\Baidu-IFE\Test\Javascript\if-else“I”»’f.html	/^  <meta http-equiv="X-UA-Compatible" content="ie=edge">$/;"	function	line:6
 title	C:\Front-End\Baidu-IFE\Test\Javascript\if-else“I”»’f.html	/^  <title>Document<\/title>$/;"	function	line:7
 body	C:\Front-End\Baidu-IFE\Test\Javascript\if-else“I”»’f.html	/^<body>$/;"	function	line:9
-button	C:\Front-End\Baidu-IFE\Test\Javascript\if-else“I”»’f.html	/^  <button onclick="myFunction()">ç‚¹å‡»è¿™é‡Œ<\/button>$/;"	function	line:10
+button	C:\Front-End\Baidu-IFE\Test\Javascript\if-else“I”»’f.html	/^  <button type="button" name="button" onclick="checked()">åˆ¤æ–­æ—¶é—´<\/button>$/;"	function	line:10
 p	C:\Front-End\Baidu-IFE\Test\Javascript\if-else“I”»’f.html	/^  <p id="demo"><\/p>$/;"	function	line:11
-script	C:\Front-End\Baidu-IFE\Test\Javascript\if-else“I”»’f.html	/^  <script>$/;"	function	line:12
-myFunction	C:\Front-End\Baidu-IFE\Test\Javascript\if-else“I”»’f.html	/^  function myFunction(){$/;"	function	line:13
+script	C:\Front-End\Baidu-IFE\Test\Javascript\if-else“I”»’f.html	/^  <script type="text\/javascript">$/;"	function	line:12
+checked	C:\Front-End\Baidu-IFE\Test\Javascript\if-else“I”»’f.html	/^  function checked() {$/;"	function	line:13
+html	C:\Front-End\Baidu-IFE\Test\Javascript\js‘€ìdomŒ³‘f.html	/^<html lang="en">$/;"	function	line:2
+head	C:\Front-End\Baidu-IFE\Test\Javascript\js‘€ìdomŒ³‘f.html	/^<head>$/;"	function	line:3
+meta	C:\Front-End\Baidu-IFE\Test\Javascript\js‘€ìdomŒ³‘f.html	/^  <meta charset="UTF-8">$/;"	function	line:4
+meta	C:\Front-End\Baidu-IFE\Test\Javascript\js‘€ìdomŒ³‘f.html	/^  <meta name="viewport" content="width=device-width, initial-scale=1.0">$/;"	function	line:5
+meta	C:\Front-End\Baidu-IFE\Test\Javascript\js‘€ìdomŒ³‘f.html	/^  <meta http-equiv="X-UA-Compatible" content="ie=edge">$/;"	function	line:6
+title	C:\Front-End\Baidu-IFE\Test\Javascript\js‘€ìdomŒ³‘f.html	/^  <title>Document<\/title>$/;"	function	line:7
+style	C:\Front-End\Baidu-IFE\Test\Javascript\js‘€ìdomŒ³‘f.html	/^<style type="text\/css">$/;"	function	line:9
+body	C:\Front-End\Baidu-IFE\Test\Javascript\js‘€ìdomŒ³‘f.html	/^<body>$/;"	function	line:16
+div	C:\Front-End\Baidu-IFE\Test\Javascript\js‘€ìdomŒ³‘f.html	/^<div id="demo" onmousemove="toYellow()"><\/div>$/;"	function	line:17
+script	C:\Front-End\Baidu-IFE\Test\Javascript\js‘€ìdomŒ³‘f.html	/^<script type="text\/javascript">$/;"	function	line:18
+toYellow	C:\Front-End\Baidu-IFE\Test\Javascript\js‘€ìdomŒ³‘f.html	/^function toYellow() {$/;"	function	line:20
+html	C:\Front-End\Baidu-IFE\Test\Javascript\switch“I”»’f.html	/^<html lang="en">$/;"	function	line:2
+head	C:\Front-End\Baidu-IFE\Test\Javascript\switch“I”»’f.html	/^<head>$/;"	function	line:3
+meta	C:\Front-End\Baidu-IFE\Test\Javascript\switch“I”»’f.html	/^  <meta charset="UTF-8">$/;"	function	line:4
+meta	C:\Front-End\Baidu-IFE\Test\Javascript\switch“I”»’f.html	/^  <meta name="viewport" content="width=device-width, initial-scale=1.0">$/;"	function	line:5
+meta	C:\Front-End\Baidu-IFE\Test\Javascript\switch“I”»’f.html	/^  <meta http-equiv="X-UA-Compatible" content="ie=edge">$/;"	function	line:6
+title	C:\Front-End\Baidu-IFE\Test\Javascript\switch“I”»’f.html	/^  <title>Document<\/title>$/;"	function	line:7
+body	C:\Front-End\Baidu-IFE\Test\Javascript\switch“I”»’f.html	/^<body>$/;"	function	line:9
+button	C:\Front-End\Baidu-IFE\Test\Javascript\switch“I”»’f.html	/^<button type="button" name="button" onclick="myFunc()">åˆ¤æ–­å‘¨å‡ <\/button>$/;"	function	line:10
+p	C:\Front-End\Baidu-IFE\Test\Javascript\switch“I”»’f.html	/^<p id="demo"><\/p>$/;"	function	line:11
+script	C:\Front-End\Baidu-IFE\Test\Javascript\switch“I”»’f.html	/^<script type="text\/javascript">$/;"	function	line:12
+myFunc	C:\Front-End\Baidu-IFE\Test\Javascript\switch“I”»’f.html	/^  function myFunc() {$/;"	function	line:13
+html	C:\Front-End\Baidu-IFE\Test\Javascript\trycatch.html	/^<html lang="en">$/;"	function	line:2
+head	C:\Front-End\Baidu-IFE\Test\Javascript\trycatch.html	/^<head>$/;"	function	line:3
+meta	C:\Front-End\Baidu-IFE\Test\Javascript\trycatch.html	/^	<meta charset="UTF-8">$/;"	function	line:4
+meta	C:\Front-End\Baidu-IFE\Test\Javascript\trycatch.html	/^	<meta name="viewport" content="width=s, initial-scale=1.0">$/;"	function	line:5
+meta	C:\Front-End\Baidu-IFE\Test\Javascript\trycatch.html	/^	<meta http-equiv="X-UA-Compatible" content="ie=edge">$/;"	function	line:6
+title	C:\Front-End\Baidu-IFE\Test\Javascript\trycatch.html	/^	<title>Document<\/title>$/;"	function	line:7
+body	C:\Front-End\Baidu-IFE\Test\Javascript\trycatch.html	/^<body>$/;"	function	line:9
+input	C:\Front-End\Baidu-IFE\Test\Javascript\trycatch.html	/^	<input type="button" value="æŸ¥çœ‹æ¶ˆæ¯" onclick="test()" \/>$/;"	function	line:10
+script	C:\Front-End\Baidu-IFE\Test\Javascript\trycatch.html	/^	<script type="text\/javascript">$/;"	function	line:11
+test	C:\Front-End\Baidu-IFE\Test\Javascript\trycatch.html	/^		function test() {$/;"	function	line:13
+trycatch	C:\Front-End\Baidu-IFE\Test\Javascript\trycatch.html	/^		function trycatch() {$/;"	function	line:16
+html	C:\Front-End\Baidu-IFE\Test\Javascript\”Ÿ”.html	/^<html lang="en">$/;"	function	line:2
+head	C:\Front-End\Baidu-IFE\Test\Javascript\”Ÿ”.html	/^<head>$/;"	function	line:3
+meta	C:\Front-End\Baidu-IFE\Test\Javascript\”Ÿ”.html	/^  <meta charset="UTF-8">$/;"	function	line:4
+meta	C:\Front-End\Baidu-IFE\Test\Javascript\”Ÿ”.html	/^  <meta name="viewport" content="width=device-width, initial-scale=1.0">$/;"	function	line:5
+meta	C:\Front-End\Baidu-IFE\Test\Javascript\”Ÿ”.html	/^  <meta http-equiv="X-UA-Compatible" content="ie=edge">$/;"	function	line:6
+title	C:\Front-End\Baidu-IFE\Test\Javascript\”Ÿ”.html	/^  <title>Document<\/title>$/;"	function	line:7
+body	C:\Front-End\Baidu-IFE\Test\Javascript\”Ÿ”.html	/^<body>$/;"	function	line:9
+button	C:\Front-End\Baidu-IFE\Test\Javascript\”Ÿ”.html	/^<button type="button" name="button" onclick="myfun()">æŒ‰é’®<\/button>$/;"	function	line:10
+script	C:\Front-End\Baidu-IFE\Test\Javascript\”Ÿ”.html	/^<script type="text\/javascript">$/;"	function	line:11
+myfun	C:\Front-End\Baidu-IFE\Test\Javascript\”Ÿ”.html	/^  function myfun() {$/;"	function	line:12
+html	C:\Front-End\Baidu-IFE\Test\Javascript\’ñ¦y.html	/^<html>$/;"	function	line:2
+head	C:\Front-End\Baidu-IFE\Test\Javascript\’ñ¦y.html	/^<head>$/;"	function	line:3
+meta	C:\Front-End\Baidu-IFE\Test\Javascript\’ñ¦y.html	/^<meta charset="utf-8">$/;"	function	line:4
+title	C:\Front-End\Baidu-IFE\Test\Javascript\’ñ¦y.html	/^<title>èœé¸Ÿæ•™ç¨‹(runoob.com)<\/title>$/;"	function	line:5
+body	C:\Front-End\Baidu-IFE\Test\Javascript\’ñ¦y.html	/^<body>$/;"	function	line:7
+p	C:\Front-End\Baidu-IFE\Test\Javascript\’ñ¦y.html	/^<p>ç‚¹å‡»æŒ‰é’®æŸ¥çœ‹è¾“å…¥çš„å¯¹è¯æ¡†ã€‚<\/p>$/;"	function	line:9
+button	C:\Front-End\Baidu-IFE\Test\Javascript\’ñ¦y.html	/^<button onclick="myFunction()">ç‚¹æˆ‘<\/button>$/;"	function	line:10
+p	C:\Front-End\Baidu-IFE\Test\Javascript\’ñ¦y.html	/^<p id="demo"><\/p>$/;"	function	line:11
+script	C:\Front-End\Baidu-IFE\Test\Javascript\’ñ¦y.html	/^<script>$/;"	function	line:12
+myFunction	C:\Front-End\Baidu-IFE\Test\Javascript\’ñ¦y.html	/^function myFunction(){$/;"	function	line:13

@@ -4,13 +4,14 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-html	C:\Front-End\Baidu-IFE\Test\Javascript\switch�I���f.html	/^<html lang="en">$/;"	function	line:2
-head	C:\Front-End\Baidu-IFE\Test\Javascript\switch�I���f.html	/^<head>$/;"	function	line:3
-meta	C:\Front-End\Baidu-IFE\Test\Javascript\switch�I���f.html	/^  <meta charset="UTF-8">$/;"	function	line:4
-meta	C:\Front-End\Baidu-IFE\Test\Javascript\switch�I���f.html	/^  <meta name="viewport" content="width=device-width, initial-scale=1.0">$/;"	function	line:5
-meta	C:\Front-End\Baidu-IFE\Test\Javascript\switch�I���f.html	/^  <meta http-equiv="X-UA-Compatible" content="ie=edge">$/;"	function	line:6
-title	C:\Front-End\Baidu-IFE\Test\Javascript\switch�I���f.html	/^  <title>Document<\/title>$/;"	function	line:7
-body	C:\Front-End\Baidu-IFE\Test\Javascript\switch�I���f.html	/^<body>$/;"	function	line:9
-button	C:\Front-End\Baidu-IFE\Test\Javascript\switch�I���f.html	/^<button type="button" name="button" onclick="myFunc()">判断周几<\/button>$/;"	function	line:10
-script	C:\Front-End\Baidu-IFE\Test\Javascript\switch�I���f.html	/^<script type="text\/javascript">$/;"	function	line:11
-myFunc	C:\Front-End\Baidu-IFE\Test\Javascript\switch�I���f.html	/^  function myFunc() {$/;"	function	line:12
+Baidu-IFE	C:\Front-End\Baidu-IFE\README.md	/^# Baidu-IFE$/;"	function	line:1
+第一阶段	C:\Front-End\Baidu-IFE\README.md	/^##第一阶段$/;"	function	line:2
+第一阶段：	C:\Front-End\Baidu-IFE\README.md	/^###第一阶段：$/;"	function	line:28
+已完成：1,2,3,4,5,6,10,12	C:\Front-End\Baidu-IFE\README.md	/^####已完成：1,2,3,4,5,6,10,12$/;"	function	line:29
+未完成：7,8,9	C:\Front-End\Baidu-IFE\README.md	/^####未完成：7,8,9$/;"	function	line:30
+有兼容问题：5,6	C:\Front-End\Baidu-IFE\README.md	/^####有兼容问题：5,6$/;"	function	line:31
+第二阶段	C:\Front-End\Baidu-IFE\README.md	/^##第二阶段$/;"	function	line:33
+第二阶段：	C:\Front-End\Baidu-IFE\README.md	/^###第二阶段：$/;"	function	line:67
+已完成：13,14,15	C:\Front-End\Baidu-IFE\README.md	/^####已完成：13,14,15$/;"	function	line:68
+未完成：	C:\Front-End\Baidu-IFE\README.md	/^####未完成：$/;"	function	line:69
+有兼容问题：	C:\Front-End\Baidu-IFE\README.md	/^####有兼容问题： $/;"	function	line:70

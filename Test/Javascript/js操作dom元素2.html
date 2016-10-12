@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<style media="screen">
+#demo{
+    width:200px;
+    height: 200px;
+    border: 1px solid #acb19e;
+  }
+</style>
+<script>
+function colorChanged(name,value) {
+   var x=document.getElementById('demo');
+   x.style[name]=value;
+}
+</script>
+<button type="button" name="button" onclick="colorChanged('background','yellow')">变黄</button>
+<button type="button" name="button" onclick="colorChanged('width','300px')">变长</button>
+<button type="button" name="button" onclick="colorChanged('height','300px')">变高</button>
+<p id="demo"></p>
+</body>
+</html>

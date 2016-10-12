@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=s, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<body>
+	<input type="button" value="查看消息" onclick="test()" />
+	<script type="text/javascript">
+		var txt='';
+		function test() {
+			trycatch();
+		}
+		function trycatch() {
+			try {
+				alert("Hello World");
+			} catch (err) {
+				txt="有错误 \n";
+				txt+="错误消息是：" + err.message;
+				alert(txt);
+			} finally {
+			}
+		}
+
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<script>
+
+window.onload=function() {
+  //获取元素
+  var allselecteds = document.getElementById('allselected');
+  var noneselecteds = document.getElementById('noneselected');
+  var unselecteds = document.getElementById('unselected')
+  var lists = document.getElementById('list');
+  var inputs =lists.getElementsByTagName('input');
+
+  //全选部分
+  allselecteds.onclick = function() {
+    for (var i = 0; i < inputs.length; i++) {
+      inputs[i].checked = true;
+    }
+  }
+  //不选部分
+  noneselecteds.onclick = function() {
+    for (var i = 0; i < inputs.length; i++) {
+      inputs[i].checked = false;
+    }
+  }
+  //反选部分
+  unselected.onclick = function () {
+    for (var i = 0; i < inputs.length; i++) {
+      if(inputs[i].checked == true){
+         inputs[i].checked = false;
+      }else{
+         inputs[i].checked = true;
+      }
+    }
+  }
+
+
+};
+
+</script>
+<input id="allselected"type="button" value="全选">
+<input id="noneselected" type="button" value="不选">
+<input id="unselected" type="button" value="反选"><br><br>
+<div id="list">
+<input type="checkbox" name="checkbox" id="">项目1 <br>
+<input type="checkbox" name="checkbox" id="">项目2 <br>
+<input type="checkbox" name="checkbox" id="">项目3 <br>
+<input type="checkbox" name="checkbox" id="">项目4 <br>
+<input type="checkbox" name="checkbox" id="">项目6 <br>
+<input type="checkbox" name="checkbox" id="">项目5 <br>
+<input type="checkbox" name="checkbox" id="">项目7 <br>
+<input type="checkbox" name="checkbox" id="">项目8 <br>
+<input type="checkbox" name="checkbox" id="">项目9 <br>
+<input type="checkbox" name="checkbox" id="">项目10 <br>
+</div>
+</body>
+</html>
