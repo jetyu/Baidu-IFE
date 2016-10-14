@@ -64,7 +64,7 @@ function factorial (num) {
 }
 
 //方法三
-function factorial ( num ) {
+function factorial (num) {
     // 如果 num 小于 0，factorial将终止
     if (num < 0) {
         return -1;
