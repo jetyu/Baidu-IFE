@@ -1,64 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 </head>
 <style>
 /*tab默认样式*/
-.div1 #tab{
-  background-color: #999;
-  color: #ffffff;
+
+.div1 #tab {
+    background-color: #999;
+    color: #ffffff;
 }
+
+
 /*tab选中样式*/
+
 .active {
-  background-color: yellow;
+    background-color: yellow;
 }
+
+
 /*内容样式*/
-#div1 div{
-  display: none;
-  width:195px;
-  height: 200px;
-  background-color: #b4bfb4;
-  color: #ffffff;
-  border: 1px solid #999;
+
+#div1 div {
+    display: none;
+    width: 195px;
+    height: 200px;
+    background-color: #b4bfb4;
+    color: #ffffff;
+    border: 1px solid #999;
 }
 </style>
+
 <body>
+    <script type="text/javascript">
+    //先隐藏元素，再显示 
+    window.onload = function() {
+        var oDiv = document.getElementById('div1');
+        var oBtn = oDiv.getElementsByTagName('button');
+        var aDiv = oDiv.getElementsByTagName('div');
 
-<script type="text/javascript">
-//先隐藏元素，再显示 
-window.onload=function() {
-  var oDiv=document.getElementById('div1');
-  var oBtn=oDiv.getElementsByTagName('button');
-  var aDiv=oDiv.getElementsByTagName('div');
-
-  for (var i = 0; i < oBtn.length; i++) {
-     oBtn[i].index=i;
-     oBtn[i].onmouseover=function() {
         for (var i = 0; i < oBtn.length; i++) {
-          oBtn[i].className='';
-          aDiv[i].style.display='none';
+            oBtn[i].index = i;
+            oBtn[i].onmouseover = function() {
+                for (var i = 0; i < oBtn.length; i++) {
+                    oBtn[i].className = '';
+                    aDiv[i].style.display = 'none';
+                }
+                this.className = "active";
+                aDiv[this.index].style.display = 'block';
+            }
         }
-        this.className="active";
-        aDiv[this.index].style.display='block';
-     }
-  }
-}
-</script>
-
-<div id="div1">
-<button type="button" name="button" id="tab" class="active">头条</button>
-<button type="button" name="button" id="tab" >娱乐</button>
-<button type="button" name="button" id="tab" >财经</button>
-<button type="button" name="button" id="tab" >健康</button>
-<div style="display:block;">头条内容</div>
-<div>娱乐内容</div>
-<div>财经内容</div>
-<div>健康内容</div>
-</div>
-
+    }
+    </script>
+    <div id="div1">
+        <button type="button" name="button" id="tab" class="active">头条</button>
+        <button type="button" name="button" id="tab">娱乐</button>
+        <button type="button" name="button" id="tab">财经</button>
+        <button type="button" name="button" id="tab">健康</button>
+        <div style="display:block;">头条内容</div>
+        <div>娱乐内容</div>
+        <div>财经内容</div>
+        <div>健康内容</div>
+    </div>
 </body>
+
 </html>

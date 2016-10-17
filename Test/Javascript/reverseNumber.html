@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<!-- 方法不完美 -->
+<input type="button" value="确定" onclick="reverseNumber(100)">
+	<script>
+	function reverseNumber(num) {
+		 if (num>0){
+			//将number转换为string类型
+		 	str = num.toString();
+		 	//讲string转换为数组
+		 	array = str.split("");
+	  		//翻转数组
+	  		array.reverse();
+	  		//将翻转的字符串数组再转化为字符串
+	  		str = array.join("");
+	  		//将字符串转换为number类型
+	  		num = +str;
+	  		//返回翻转后的number
+	  		alert(num);
+	  	}
+	}
+	</script>
+
+</body>
+</html>

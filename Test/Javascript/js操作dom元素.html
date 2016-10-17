@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 </head>
 <style type="text/css">
-#demo{
-  width: 200px;
-  height: 200px;
-  background-color: #639599;
-}
+    #demo {
+        width: 200px;
+        height: 200px;
+        background-color: #639599;
+    }
 </style>
+
 <body>
-  <div id="demo" onmousemove="toYellow()"></div>
-<script type="text/javascript">
+    <div id="demo" onmousemove="toYellow()"></div>
+    <script type="text/javascript">
+        var elementID = document.getElementById('demo');
 
-var elementID=document.getElementById('demo');
-function toYellow() {
-    elementID.style.background='yellow';
-    elementID.style.width='200px';
-    elementID.style.height='200px';
-}
-
-</script>
+        function toYellow() {
+            elementID.style.background = 'yellow';
+            elementID.style.width = '200px';
+            elementID.style.height = '200px';
+        }
+    </script>
 </body>
+
 </html>

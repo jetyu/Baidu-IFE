@@ -1,85 +1,92 @@
-*{
-	margin: 0px;
-	padding: 0px;
-	font-family: Microsoft Yahei;
-	box-sizing: border-box;
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Microsoft Yahei;
+    box-sizing: border-box;
 }
 
-body{
-		background-color: #eeeeee;
-
+body {
+    background-color: #eeeeee;
 }
 
-div{
-	display: block;
+div {
+    display: block;
 }
+
+
 /*顶栏式样*/
-.nav-header nav{
-	background-color: #333;
- 	margin-bottom: 10px;
-	width: 100%; 
+
+.nav-header nav {
+    background-color: #333;
+    margin-bottom: 10px;
+    width: 100%;
 }
 
-.nav-logo{
-	display: inline-block;
-	margin-bottom: 10px;
+.nav-logo {
+    display: inline-block;
+    margin-bottom: 10px;
 }
-.nav-list ul li{
-	display: inline-block;
-  	margin-top: 10px;
- 	padding: 10px;
+
+.nav-list ul li {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
 }
-.nav-list ul li a{
-	text-decoration: none;
-	color: white;
+
+.nav-list ul li a {
+    text-decoration: none;
+    color: white;
 }
-.nav-list{display: inline-block;
-	float: right;
+
+.nav-list {
+    display: inline-block;
+    float: right;
 }
-article figure img{
+
+article figure img {
     width: 180px;
     height: 180px;
 }
 
-article,aside{
-	background-color: #ffffff;
-	padding: 30px;
-	margin: 10px;
+article,
+aside {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 10px;
 }
 
-figure{
-	border: 1px  solid #eeeeee;
-	text-align: center;
-	padding: 10px;
-	margin:20px;
-	width: 240px;
-}
- 
-
-table{
-	 border-collapse:collapse;
-	 font-weight: bold;
+figure {
+    border: 1px solid #eeeeee;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    width: 240px;
 }
 
-article table thead tr th{	
-	background: #333333;
-	color:white;
-	text-align: left;
+table {
+    border-collapse: collapse;
+    font-weight: bold;
 }
 
- tbody tr td{
-	 width: 500px;
- }
+article table thead tr th {
+    background: #333333;
+    color: white;
+    text-align: left;
+}
 
- tfoot tr td{
- 	background: #eeeeee;
- 	border:0px;
- }
+tbody tr td {
+    width: 500px;
+}
 
- aside h2{
-	 border-left: 5px solid #eeeeee;
-	 padding-left: 20px;
- }
+tfoot tr td {
+    background: #eeeeee;
+    border: 0px;
+}
+
+aside h2 {
+    border-left: 5px solid #eeeeee;
+    padding-left: 20px;
+}
 
 label {
     display: inline-block;
@@ -99,12 +106,12 @@ label {
     border-radius: 8px;
 }
 
-aside{
-    margin-top:20px;
-    width:100%;
-    float:right;
-    background:white;
-    padding:20px;
+aside {
+    margin-top: 20px;
+    width: 100%;
+    float: right;
+    background: white;
+    padding: 20px;
 }
 
 footer {
