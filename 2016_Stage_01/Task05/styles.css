@@ -1,91 +1,93 @@
-*{
-	margin: 0px;
-	padding: 0px;
-	font-family: Microsoft Yahei;
-	box-sizing: border-box;
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Microsoft Yahei;
+    box-sizing: border-box;
 }
 
-body{
-		background-color: #eeeeee;
+body {
+    background-color: #eeeeee;
 }
 
-div{
-	display: block;
+div {
+    display: block;
 }
+
 
 /*顶栏式样*/
-.nav-header nav{
-	background-color: #333;
- 	margin-bottom: 10px;
-	width: 100%;
+
+.nav-header nav {
+    background-color: #333;
+    margin-bottom: 10px;
+    width: 100%;
 }
 
-.nav-logo{
-	display: inline-block;
-	margin-bottom: 10px;
+.nav-logo {
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
-.nav-list ul li{
-	display: inline-block;
-  margin-top: 10px;
- 	padding: 10px;
+.nav-list ul li {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
 }
 
-.nav-list ul li a{
-	text-decoration: none;
-	color: white;
+.nav-list ul li a {
+    text-decoration: none;
+    color: white;
 }
 
-.nav-list{
-	display: inline-block;
-	float: right;
+.nav-list {
+    display: inline-block;
+    float: right;
 }
 
-img{
+img {
     width: 70%;
 }
 
-article{
-	    margin: 40px 450px 20px 40px;
-	    padding: 20px;
-			background-color: #FFF;
-	    line-height: 1.5;
-	    box-shadow: 2px 2px 2px #848484;
+article {
+    margin: 40px 450px 20px 40px;
+    padding: 20px;
+    background-color: #FFF;
+    line-height: 1.5;
+    box-shadow: 2px 2px 2px #848484;
 }
 
-figure{
-		height: 120px;
-		width: 140px;
-border: 1px solid #aaa;
-text-align: center;
-padding-bottom: 10px;
-margin-bottom: 20px;
-display: inline-block;
+figure {
+    height: 120px;
+    width: 140px;
+    border: 1px solid #aaa;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
 }
 
-table{
-	 border-collapse:collapse;
-	 font-weight: bold;
+table {
+    border-collapse: collapse;
+    font-weight: bold;
 }
 
-article table thead tr th{
-	background: #333333;
-	color:white;
-	text-align: left;
+article table thead tr th {
+    background: #333333;
+    color: white;
+    text-align: left;
 }
 
-tbody tr td{
-	 width: 500px;
- }
-
-tfoot tr td{
- 	background: #eeeeee;
- 	border:0px;
+tbody tr td {
+    width: 500px;
 }
 
-aside h2{
-	 border-left: 5px solid #eeeeee;
-	 padding-left: 20px;
+tfoot tr td {
+    background: #eeeeee;
+    border: 0px;
+}
+
+aside h2 {
+    border-left: 5px solid #eeeeee;
+    padding-left: 20px;
 }
 
 label {
@@ -106,13 +108,13 @@ label {
     border-radius: 8px;
 }
 
-aside{
-	    margin:30px 20px auto 20px;
-	    width:420px;
-	    float:right;
-	    background:white;
-	    padding:30px;
-			box-shadow: 2px 2px 2px #848484;
+aside {
+    margin: 30px 20px auto 20px;
+    width: 420px;
+    float: right;
+    background: white;
+    padding: 30px;
+    box-shadow: 2px 2px 2px #848484;
 }
 
 footer {
